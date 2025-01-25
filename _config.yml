@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Sanghun Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**Rigging** and **CG(Computer Graphics)** 기록지"
+  bio              : "Animation **Rigging** \n**CG(Computer Graphics)**"
   location         : "Gyeonggi, Republic of Korea"
   email            : "hun1387s@gmail.com"
   links:
@@ -149,11 +149,10 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/hun1387s"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://github.com/hun1387s"
-      
+      # url: 
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
