@@ -115,11 +115,9 @@ analytics:
 author:
   name             : "Sanghun Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Animation **Rigger** 
-  
-  hun1387s@gmail.com"
+  bio              : "Animation **Rigger**"
   location         : "Gyeonggi, Republic of Korea"
-  email            : "hun1387s@gmail.com"
+  email            : # "hun1387s@gmail.com"
   links:
     - label: "hun1387s@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
