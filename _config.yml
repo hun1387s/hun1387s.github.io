@@ -121,9 +121,9 @@ author:
   location         : "Gyeonggi, Republic of Korea"
   email            : "hun1387s@gmail.com"
   links:
-    - label: "Email"
+    - label: "hun1387s@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "hun1387s@gmail.com"
+      url: "hun1387s@gmail.com"
     - label: "Linked In"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/hun1387s/"
@@ -152,6 +152,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hun1387s"
+
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url: 
@@ -229,11 +230,11 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
@@ -292,16 +293,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
