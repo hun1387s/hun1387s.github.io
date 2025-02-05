@@ -25,8 +25,8 @@ description              : "Animation Rigger 기록 블로그"
 url                      : "https://hun1387s.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/images/title/thumbnail.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/images/title/thumbnail.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -45,7 +45,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
@@ -114,14 +114,14 @@ analytics:
 # Site Author
 author:
   name             : "Sanghun Lee"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/title/thumbnail.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Animation **Rigger**"
   location         : "Gyeonggi, Republic of Korea"
   email            : # "hun1387s@gmail.com"
   links:
     - label: "hun1387s@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "hun1387s@gmail.com"
+      url: "https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrhTmhrSvtVXlZrjFRtDjVbstvhPTfJCgzmHFqJFdrlztbhkxVtMmgrQQqmWtsrfKxsTNB"
     - label: "Linked In"
       icon: "fas fa fa-linkedin"
       url: "https://www.linkedin.com/in/hun1387s/"
