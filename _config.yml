@@ -319,6 +319,8 @@ compress_html:
 
 # Defaults
 defaults:
+  - sidebar:
+      nav: "main"
   # _posts
   - scope:
       path: ""
@@ -326,6 +328,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      # sidebar:
+      #   nav: "main"
       read_time: false
       comments: true
       share: false #true
