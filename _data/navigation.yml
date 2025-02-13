@@ -15,21 +15,6 @@ docs:
       - title: "Tag"
         url: /tags/
 
-
-sidebar:
-  - title: "Programing"
-    url: /programing/
-    category_nama: "programing"
-    children:
-      - title: "C#"
-        url: /programing/cs/
-        category_nama: "cs"
-      - title: "C++"
-        url: /programing/cpp/
-        category_nama: "cpp"
-
-
-
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
