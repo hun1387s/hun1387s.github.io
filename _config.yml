@@ -296,6 +296,11 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+programing_archive:
+  type: liquid
+  path: /programing/
+
+
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
@@ -319,8 +324,6 @@ compress_html:
 
 # Defaults
 defaults:
-  - sidebar:
-      nav: "main"
   # _posts
   - scope:
       path: ""
@@ -328,8 +331,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      # sidebar:
-      #   nav: "main"
+      sidebar:
+        nav: "sidebar"
       read_time: false
       comments: true
       share: false #true
