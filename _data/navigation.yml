@@ -1,7 +1,7 @@
 # main links
 main:
-  # - title: "Category"
-  #   url: /categories/
+  - title: "Category"
+    url: /categories/
   - title: "Tag"
     url: /tags/
   - title: "Search"
@@ -10,8 +10,8 @@ main:
 docs:
   - title: ""
     children:
-      # - title: "Category"
-      #   url: /categories/
+      - title: "Category"
+        url: /categories/
       - title: "Tag"
         url: /tags/
 
@@ -19,25 +19,14 @@ docs:
 sidebar:
   - title: "Programing"
     url: /programing/
-    category_name: "programing"
+    category_nama: "programing"
     children:
-      - title: "Python"
-        url: /programing/python/
-        category_name: "python"
-        children:
-          - title: "Maya"
-            url: /programing/maya/
-            category_name: "maya"
       - title: "C#"
         url: /programing/cs/
-        category_name: "cs"
+        category_nama: "cs"
       - title: "C++"
         url: /programing/cpp/
-        category_name: "cpp"
-        children:
-        - title: "DX11"
-          url: /programing/dx11/
-          category_name: "dx11"
+        category_nama: "cpp"
 
 
 
