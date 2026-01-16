@@ -336,6 +336,7 @@ defaults:
       toc_sticky: true # 목차 고정
       toc_label: 목차
       search: true
+      mathjax: true
       
 
 
